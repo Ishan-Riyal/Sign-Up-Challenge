@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 4rem;
+  font-size: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3.6rem;
+}
+
+form {
+  max-width: 50rem;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 3rem 3.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.12);
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+input:focus,
+button:focus {
+  outline: 2px solid #4caf50;
+}
+
+.message {
+  font-size: 1.4rem;
+  color: red;
+  margin-bottom: 1.5rem;
+}
+
+.success-message {
+  font-size: 1.6rem;
+  color: green;
+  font-weight: bold;
+  margin: 1.5rem 0;
+}
+
+button {
+  width: 100%;
+  padding: 1.4rem;
+  margin-top: 1rem;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
